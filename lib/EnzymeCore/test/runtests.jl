@@ -36,4 +36,7 @@ using EnzymeCore
     @testset "Mode modification" begin
         include("mode_modification.jl")
     end
+    @testset "ADTypes" begin
+        include("adtypes.jl")
+    end
 end
